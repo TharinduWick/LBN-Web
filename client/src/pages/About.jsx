@@ -178,7 +178,7 @@ export default function About() {
                     <li className="mb-3">
                       <p>
                         <span className="font-semibold">
-                          LBN Key Resource (Pvt) Ltd
+                          LBN Key Resource (Pvt) Ltd 
                         </span>{" "}
                         is an authorized employment agency, approved by the
                         bureau of foreign employment of Sri Lanka to act as an
