@@ -190,27 +190,24 @@ export default function Contact() {
 
         {/* location */}
         <FadeIn delay={0.2} direction="middle" padding fullWidth>
-          <div className="flex flex-col md:flex-row gap-10 justify-center md:my-32 items-center  px-10 pb-10 pt-10 md:pt-0 ">
-            <div className="text-xl md:text-4xl">
-              <h2 className="font-bold text-rose-500">Our Location</h2>
-            </div>
-            <div className="">
-              <iframe
-                width="520"
-                height="400"
-                frameborder="0"
-                scrolling="no"
-                marginheight="0"
-                marginwidth="0"
-                src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=%20250%20D/2%20Battaramulla%20-%20Pannipitiya%20Rd,Sri%20Jayawardenepura,Kotte,Srilanka+(LBN%20KEY%20RESOURCE%20(PVT)%20LTD)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-              >
-                <a href="https://www.maps.ie/population/">
-                  Population Estimator map
-                </a>
-              </iframe>
-            </div>
-          </div>
-        </FadeIn>
+  <div className="flex flex-col md:flex-row gap-10 justify-center md:my-32 items-center px-10 pb-10 pt-10 md:pt-0">
+    <div className="text-xl md:text-4xl">
+      <h2 className="font-bold text-rose-500">Our Location</h2>
+    </div>
+    <div className="">
+      <iframe
+        width="800"
+        height="600"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4940.453489372509!2d79.93039022219808!3d6.881049239053969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2510009586337%3A0xacd44bf3699f83f9!2sLBN%20Key%20Resource!5e0!3m2!1sen!2slk!4v1741270333000!5m2!1sen!2slk"
+      ></iframe>
+    </div>
+  </div>
+</FadeIn>
+
 
         {/* contact form */}
         <div className="flex flex-col max-w-3xl mx-5 md:mx-auto ">
